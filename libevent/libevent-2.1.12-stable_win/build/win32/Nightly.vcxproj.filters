@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\95609b9abf5b37e0948155e01ccc08f3\Nightly.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\Nightly" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F7A7B1E6-1A41-3CB5-B4E9-0DF0494C7A18}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

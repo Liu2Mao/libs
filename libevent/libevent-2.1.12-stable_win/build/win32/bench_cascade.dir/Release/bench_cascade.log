@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/CMakeLists.txt
+  bench_cascade.c
+  getopt.c
+  getopt_long.c
+  正在生成代码...
+  bench_cascade.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\bin\Release\bench_cascade.exe

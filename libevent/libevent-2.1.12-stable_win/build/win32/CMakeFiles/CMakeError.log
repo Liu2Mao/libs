@@ -1,0 +1,1237 @@
+Determining if the __GNU_LIBRARY__ exist failed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_7e165.vcxproj /p:Configuration=Debug /p:Platform=WIN32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7e165.dir\Debug\\" /Fd"cmTC_7e165.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(2,10): fatal error C1083: 无法打开包括文件: “features.h”: No such file or directory [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_7e165.vcxproj]
+
+
+File C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <features.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __GNU_LIBRARY__
+  return ((int*)(&__GNU_LIBRARY__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _GNU_SOURCE exist failed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_29083.vcxproj /p:Configuration=Debug /p:Platform=WIN32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_29083.dir\Debug\\" /Fd"cmTC_29083.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(2,10): fatal error C1083: 无法打开包括文件: “features.h”: No such file or directory [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_29083.vcxproj]
+
+
+File C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <features.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _GNU_SOURCE
+  return ((int*)(&_GNU_SOURCE))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h;stdlib.h;string.h;errno.h;unistd.h exist failed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_3f2d3.vcxproj /p:Configuration=Debug /p:Platform=WIN32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  EVENT__HAVE_UNISTD_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3f2d3.dir\Debug\\" /Fd"cmTC_3f2d3.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CheckIncludeFiles\EVENT__HAVE_UNISTD_H.c"
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CheckIncludeFiles\EVENT__HAVE_UNISTD_H.c(12,10): fatal error C1083: 无法打开包括文件: “unistd.h”: No such file or directory [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_3f2d3.vcxproj]
+
+
+Source:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <unistd.h>
+
+
+int main(void){return 0;}
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h;stdlib.h;string.h;errno.h;time.h;sys/types.h;sys/stat.h;sys/time.h exist failed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_ee012.vcxproj /p:Configuration=Debug /p:Platform=WIN32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  EVENT__HAVE_SYS_TIME_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ee012.dir\Debug\\" /Fd"cmTC_ee012.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CheckIncludeFiles\EVENT__HAVE_SYS_TIME_H.c"
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CheckIncludeFiles\EVENT__HAVE_SYS_TIME_H.c(15,10): fatal error C1083: 无法打开包括文件: “sys/time.h”: No such file or directory [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_ee012.vcxproj]
+
+
+Source:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+
+
+int main(void){return 0;}
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h;stdlib.h;string.h;errno.h;time.h;sys/types.h;sys/stat.h;sys/param.h exist failed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_98aed.vcxproj /p:Configuration=Debug /p:Platform=WIN32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  EVENT__HAVE_SYS_PARAM_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_98aed.dir\Debug\\" /Fd"cmTC_98aed.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CheckIncludeFiles\EVENT__HAVE_SYS_PARAM_H.c"
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CheckIncludeFiles\EVENT__HAVE_SYS_PARAM_H.c(15,10): fatal error C1083: 无法打开包括文件: “sys/param.h”: No such file or directory [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_98aed.vcxproj]
+
+
+Source:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <sys/param.h>
+
+
+int main(void){return 0;}
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h;stdlib.h;string.h;errno.h;time.h;sys/types.h;sys/stat.h;io.h;winsock2.h;ws2tcpip.h;afunix.h;sys/sysctl.h exist failed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_cb4be.vcxproj /p:Configuration=Debug /p:Platform=WIN32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  EVENT__HAVE_SYS_SYSCTL_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cb4be.dir\Debug\\" /Fd"cmTC_cb4be.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CheckIncludeFiles\EVENT__HAVE_SYS_SYSCTL_H.c"
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CheckIncludeFiles\EVENT__HAVE_SYS_SYSCTL_H.c(19,10): fatal error C1083: 无法打开包括文件: “sys/sysctl.h”: No such file or directory [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_cb4be.vcxproj]
+
+
+Source:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <io.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <afunix.h>
+#include <sys/sysctl.h>
+
+
+int main(void){return 0;}
+
+Determining if the gettimeofday exist failed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_6745e.vcxproj /p:Configuration=Debug /p:Platform=WIN32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6745e.dir\Debug\\" /Fd"cmTC_6745e.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(25,31): error C2065: “gettimeofday”: 未声明的标识符 [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_6745e.vcxproj]
+
+
+File C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <io.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <afunix.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gettimeofday
+  return ((int*)(&gettimeofday))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the splice exist failed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_c1f5e.vcxproj /p:Configuration=Debug /p:Platform=WIN32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c1f5e.dir\Debug\\" /Fd"cmTC_c1f5e.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(25,25): error C2065: “splice”: 未声明的标识符 [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_c1f5e.vcxproj]
+
+
+File C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <io.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <afunix.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef splice
+  return ((int*)(&splice))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strlcpy exist failed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_7ab5b.vcxproj /p:Configuration=Debug /p:Platform=WIN32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7ab5b.dir\Debug\\" /Fd"cmTC_7ab5b.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(25,26): error C2065: “strlcpy”: 未声明的标识符 [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_7ab5b.vcxproj]
+
+
+File C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <io.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <afunix.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strlcpy
+  return ((int*)(&strlcpy))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strsep exist failed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_63624.vcxproj /p:Configuration=Debug /p:Platform=WIN32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_63624.dir\Debug\\" /Fd"cmTC_63624.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(25,25): error C2065: “strsep”: 未声明的标识符 [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_63624.vcxproj]
+
+
+File C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <io.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <afunix.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strsep
+  return ((int*)(&strsep))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtok_r exist failed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_3819c.vcxproj /p:Configuration=Debug /p:Platform=WIN32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3819c.dir\Debug\\" /Fd"cmTC_3819c.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(25,27): error C2065: “strtok_r”: 未声明的标识符 [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_3819c.vcxproj]
+
+
+File C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <io.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <afunix.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtok_r
+  return ((int*)(&strtok_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the vasprintf exist failed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_2c66e.vcxproj /p:Configuration=Debug /p:Platform=WIN32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2c66e.dir\Debug\\" /Fd"cmTC_2c66e.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(25,28): error C2065: “vasprintf”: 未声明的标识符 [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_2c66e.vcxproj]
+
+
+File C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <io.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <afunix.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vasprintf
+  return ((int*)(&vasprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the timeradd exist failed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_22a97.vcxproj /p:Configuration=Debug /p:Platform=WIN32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_22a97.dir\Debug\\" /Fd"cmTC_22a97.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(25,27): error C2065: “timeradd”: 未声明的标识符 [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_22a97.vcxproj]
+
+
+File C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <io.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <afunix.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef timeradd
+  return ((int*)(&timeradd))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the nanosleep exist failed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_f85dd.vcxproj /p:Configuration=Debug /p:Platform=WIN32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f85dd.dir\Debug\\" /Fd"cmTC_f85dd.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(25,28): error C2065: “nanosleep”: 未声明的标识符 [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_f85dd.vcxproj]
+
+
+File C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <io.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <afunix.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef nanosleep
+  return ((int*)(&nanosleep))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the clock_gettime exist failed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_1f765.vcxproj /p:Configuration=Debug /p:Platform=WIN32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  CheckSymbolExists.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1f765.dir\Debug\\" /Fd"cmTC_1f765.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(25,32): error C2065: “clock_gettime”: 未声明的标识符 [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_1f765.vcxproj]
+
+
+File C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <io.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <afunix.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef clock_gettime
+  return ((int*)(&clock_gettime))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the TAILQ_FOREACH exist failed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_13242.vcxproj /p:Configuration=Debug /p:Platform=WIN32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_13242.dir\Debug\\" /Fd"cmTC_13242.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(2,10): fatal error C1083: 无法打开包括文件: “sys/queue.h”: No such file or directory [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_13242.vcxproj]
+
+
+File C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/queue.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef TAILQ_FOREACH
+  return ((int*)(&TAILQ_FOREACH))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test EVENT__HAVE_DECL_CTL_KERN failed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_23563.vcxproj /p:Configuration=Debug /p:Platform=WIN32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  src.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D EVENT__HAVE_DECL_CTL_KERN /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_23563.dir\Debug\\" /Fd"cmTC_23563.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\src.c"
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\src.c(2,20): fatal error C1083: 无法打开包括文件: “sys/sysctl.h”: No such file or directory [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_23563.vcxproj]
+
+
+Source file was:
+
+          #include <sys/sysctl.h>
+        int main() { (void)CTL_KERN; return 0; }
+Performing C SOURCE FILE Test EVENT__HAVE_DECL_KERN_ARND failed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_a1d3b.vcxproj /p:Configuration=Debug /p:Platform=WIN32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  src.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D EVENT__HAVE_DECL_KERN_ARND /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a1d3b.dir\Debug\\" /Fd"cmTC_a1d3b.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\src.c"
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\src.c(2,20): fatal error C1083: 无法打开包括文件: “sys/sysctl.h”: No such file or directory [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_a1d3b.vcxproj]
+
+
+Source file was:
+
+          #include <sys/sysctl.h>
+        int main() { (void)KERN_ARND; return 0; }
+Determining if the F_SETFD exist failed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_45b1d.vcxproj /p:Configuration=Debug /p:Platform=WIN32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_45b1d.dir\Debug\\" /Fd"cmTC_45b1d.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\CheckSymbolExists.c(8,26): error C2065: “F_SETFD”: 未声明的标识符 [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_45b1d.vcxproj]
+
+
+File C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef F_SETFD
+  return ((int*)(&F_SETFD))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining size of fd_mask failed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_f14f1.vcxproj /p:Configuration=Debug /p:Platform=WIN32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  EVENT__HAVE_FD_MASK.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f14f1.dir\Debug\\" /Fd"cmTC_f14f1.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CheckTypeSize\EVENT__HAVE_FD_MASK.c"
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CheckTypeSize\EVENT__HAVE_FD_MASK.c(47,12): error C2065: “fd_mask”: 未声明的标识符 [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_f14f1.vcxproj]
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CheckTypeSize\EVENT__HAVE_FD_MASK.c(48,12): error C2065: “fd_mask”: 未声明的标识符 [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_f14f1.vcxproj]
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CheckTypeSize\EVENT__HAVE_FD_MASK.c(49,12): error C2065: “fd_mask”: 未声明的标识符 [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_f14f1.vcxproj]
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CheckTypeSize\EVENT__HAVE_FD_MASK.c(50,12): error C2065: “fd_mask”: 未声明的标识符 [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_f14f1.vcxproj]
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CheckTypeSize\EVENT__HAVE_FD_MASK.c(51,12): error C2065: “fd_mask”: 未声明的标识符 [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_f14f1.vcxproj]
+
+
+C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CheckTypeSize/EVENT__HAVE_FD_MASK.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "fcntl.h"
+#include "inttypes.h"
+#include "memory.h"
+#include "signal.h"
+#include "stdarg.h"
+#include "stddef.h"
+#include "stdint.h"
+#include "stdlib.h"
+#include "string.h"
+#include "errno.h"
+#include "time.h"
+#include "sys/types.h"
+#include "sys/stat.h"
+#include "io.h"
+#include "winsock2.h"
+#include "ws2tcpip.h"
+#include "afunix.h"
+#include "stdio.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(fd_mask))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of ssize_t failed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_84d68.vcxproj /p:Configuration=Debug /p:Platform=WIN32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_84d68.dir\Debug\\" /Fd"cmTC_84d68.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_SSIZE_T_LOWER.c"
+  EVENT__SIZEOF_SSIZE_T_LOWER.c
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_SSIZE_T_LOWER.c(47,12): error C2065: “ssize_t”: 未声明的标识符 [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_84d68.vcxproj]
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_SSIZE_T_LOWER.c(48,12): error C2065: “ssize_t”: 未声明的标识符 [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_84d68.vcxproj]
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_SSIZE_T_LOWER.c(49,12): error C2065: “ssize_t”: 未声明的标识符 [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_84d68.vcxproj]
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_SSIZE_T_LOWER.c(50,12): error C2065: “ssize_t”: 未声明的标识符 [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_84d68.vcxproj]
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_SSIZE_T_LOWER.c(51,12): error C2065: “ssize_t”: 未声明的标识符 [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_84d68.vcxproj]
+
+
+C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_SSIZE_T_LOWER.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "fcntl.h"
+#include "inttypes.h"
+#include "memory.h"
+#include "signal.h"
+#include "stdarg.h"
+#include "stddef.h"
+#include "stdint.h"
+#include "stdlib.h"
+#include "string.h"
+#include "errno.h"
+#include "time.h"
+#include "sys/types.h"
+#include "sys/stat.h"
+#include "io.h"
+#include "winsock2.h"
+#include "ws2tcpip.h"
+#include "afunix.h"
+#include "stdio.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(ssize_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of pid_t failed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_1ce76.vcxproj /p:Configuration=Debug /p:Platform=WIN32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  EVENT__SIZEOF_PID_T.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1ce76.dir\Debug\\" /Fd"cmTC_1ce76.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_PID_T.c"
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_PID_T.c(47,12): error C2065: “pid_t”: 未声明的标识符 [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_1ce76.vcxproj]
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_PID_T.c(48,12): error C2065: “pid_t”: 未声明的标识符 [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_1ce76.vcxproj]
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_PID_T.c(49,12): error C2065: “pid_t”: 未声明的标识符 [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_1ce76.vcxproj]
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_PID_T.c(50,12): error C2065: “pid_t”: 未声明的标识符 [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_1ce76.vcxproj]
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_PID_T.c(51,12): error C2065: “pid_t”: 未声明的标识符 [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_1ce76.vcxproj]
+
+
+C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_PID_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "fcntl.h"
+#include "inttypes.h"
+#include "memory.h"
+#include "signal.h"
+#include "stdarg.h"
+#include "stddef.h"
+#include "stdint.h"
+#include "stdlib.h"
+#include "string.h"
+#include "errno.h"
+#include "time.h"
+#include "sys/types.h"
+#include "sys/stat.h"
+#include "io.h"
+#include "winsock2.h"
+#include "ws2tcpip.h"
+#include "afunix.h"
+#include "stdio.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(pid_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of pthread_t failed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_2c01e.vcxproj /p:Configuration=Debug /p:Platform=WIN32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2c01e.dir\Debug\\" /Fd"cmTC_2c01e.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_PTHREAD_T.c"
+  EVENT__SIZEOF_PTHREAD_T.c
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_PTHREAD_T.c(47,12): error C2065: “pthread_t”: 未声明的标识符 [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_2c01e.vcxproj]
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_PTHREAD_T.c(48,12): error C2065: “pthread_t”: 未声明的标识符 [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_2c01e.vcxproj]
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_PTHREAD_T.c(49,12): error C2065: “pthread_t”: 未声明的标识符 [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_2c01e.vcxproj]
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_PTHREAD_T.c(50,12): error C2065: “pthread_t”: 未声明的标识符 [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_2c01e.vcxproj]
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_PTHREAD_T.c(51,12): error C2065: “pthread_t”: 未声明的标识符 [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_2c01e.vcxproj]
+
+
+C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CheckTypeSize/EVENT__SIZEOF_PTHREAD_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "fcntl.h"
+#include "inttypes.h"
+#include "memory.h"
+#include "signal.h"
+#include "stdarg.h"
+#include "stddef.h"
+#include "stdint.h"
+#include "stdlib.h"
+#include "string.h"
+#include "errno.h"
+#include "time.h"
+#include "sys/types.h"
+#include "sys/stat.h"
+#include "io.h"
+#include "winsock2.h"
+#include "ws2tcpip.h"
+#include "afunix.h"
+#include "stdio.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(pthread_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Performing C SOURCE FILE Test EVENT__HAVE_STRUCT_IN6_ADDR_S6_ADDR16 failed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_7b993.vcxproj /p:Configuration=Debug /p:Platform=WIN32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  src.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D EVENT__HAVE_STRUCT_IN6_ADDR_S6_ADDR16 /D WIN32_LEAN_AND_MEAN /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7b993.dir\Debug\\" /Fd"cmTC_7b993.dir\Debug\vc142.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\src.c"
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\src.c(7,40): error C2039: "s6_addr16": 不是 "in6_addr" 的成员 [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_7b993.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\in6addr.h(25): message : 参见“in6_addr”的声明 [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_7b993.vcxproj]
+
+
+Source file was:
+
+#include <winsock2.h>
+#include <ws2tcpip.h>
+
+int main()
+{
+  (void)sizeof(((struct in6_addr *)0)->s6_addr16);
+  return 0;
+}
+
+Performing C SOURCE FILE Test EVENT__HAVE_STRUCT_IN6_ADDR_S6_ADDR32 failed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_85b12.vcxproj /p:Configuration=Debug /p:Platform=WIN32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  src.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D EVENT__HAVE_STRUCT_IN6_ADDR_S6_ADDR32 /D WIN32_LEAN_AND_MEAN /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_85b12.dir\Debug\\" /Fd"cmTC_85b12.dir\Debug\vc142.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\src.c"
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\src.c(7,40): error C2039: "s6_addr32": 不是 "in6_addr" 的成员 [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_85b12.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\in6addr.h(25): message : 参见“in6_addr”的声明 [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_85b12.vcxproj]
+
+
+Source file was:
+
+#include <winsock2.h>
+#include <ws2tcpip.h>
+
+int main()
+{
+  (void)sizeof(((struct in6_addr *)0)->s6_addr32);
+  return 0;
+}
+
+Determining size of sa_family_t failed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_9bd8c.vcxproj /p:Configuration=Debug /p:Platform=WIN32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9bd8c.dir\Debug\\" /Fd"cmTC_9bd8c.dir\Debug\vc142.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CheckTypeSize\EVENT__HAVE_SA_FAMILY_T.c"
+  EVENT__HAVE_SA_FAMILY_T.c
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CheckTypeSize\EVENT__HAVE_SA_FAMILY_T.c(48,12): error C2065: “sa_family_t”: 未声明的标识符 [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_9bd8c.vcxproj]
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CheckTypeSize\EVENT__HAVE_SA_FAMILY_T.c(49,12): error C2065: “sa_family_t”: 未声明的标识符 [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_9bd8c.vcxproj]
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CheckTypeSize\EVENT__HAVE_SA_FAMILY_T.c(50,12): error C2065: “sa_family_t”: 未声明的标识符 [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_9bd8c.vcxproj]
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CheckTypeSize\EVENT__HAVE_SA_FAMILY_T.c(51,12): error C2065: “sa_family_t”: 未声明的标识符 [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_9bd8c.vcxproj]
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CheckTypeSize\EVENT__HAVE_SA_FAMILY_T.c(52,12): error C2065: “sa_family_t”: 未声明的标识符 [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_9bd8c.vcxproj]
+
+
+C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CheckTypeSize/EVENT__HAVE_SA_FAMILY_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "fcntl.h"
+#include "inttypes.h"
+#include "memory.h"
+#include "signal.h"
+#include "stdarg.h"
+#include "stddef.h"
+#include "stdint.h"
+#include "stdlib.h"
+#include "string.h"
+#include "errno.h"
+#include "time.h"
+#include "sys/types.h"
+#include "sys/stat.h"
+#include "io.h"
+#include "winsock2.h"
+#include "ws2tcpip.h"
+#include "afunix.h"
+#include "stdio.h"
+#include "ws2tcpip.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(sa_family_t))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Performing C SOURCE FILE Test EVENT__HAVE_STRUCT_SOCKADDR_IN6_SIN6_LEN failed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_6a1cc.vcxproj /p:Configuration=Debug /p:Platform=WIN32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  src.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D EVENT__HAVE_STRUCT_SOCKADDR_IN6_SIN6_LEN /D WIN32_LEAN_AND_MEAN /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6a1cc.dir\Debug\\" /Fd"cmTC_6a1cc.dir\Debug\vc142.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\src.c"
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\src.c(7,44): error C2039: "sin6_len": 不是 "sockaddr_in6" 的成员 [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_6a1cc.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\ws2ipdef.h(188): message : 参见“sockaddr_in6”的声明 [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_6a1cc.vcxproj]
+
+
+Source file was:
+
+#include <winsock2.h>
+#include <ws2tcpip.h>
+
+int main()
+{
+  (void)sizeof(((struct sockaddr_in6 *)0)->sin6_len);
+  return 0;
+}
+
+Performing C SOURCE FILE Test EVENT__HAVE_STRUCT_SOCKADDR_IN_SIN_LEN failed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_3b6ab.vcxproj /p:Configuration=Debug /p:Platform=WIN32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  src.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D EVENT__HAVE_STRUCT_SOCKADDR_IN_SIN_LEN /D WIN32_LEAN_AND_MEAN /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3b6ab.dir\Debug\\" /Fd"cmTC_3b6ab.dir\Debug\vc142.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\src.c"
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\src.c(7,44): error C2039: "sin_len": 不是 "sockaddr_in6" 的成员 [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_3b6ab.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\ws2ipdef.h(188): message : 参见“sockaddr_in6”的声明 [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_3b6ab.vcxproj]
+
+
+Source file was:
+
+#include <winsock2.h>
+#include <ws2tcpip.h>
+
+int main()
+{
+  (void)sizeof(((struct sockaddr_in6 *)0)->sin_len);
+  return 0;
+}
+
+Performing C SOURCE FILE Test EVENT__HAVE_STRUCT_SOCKADDR_STORAGE___SS_FAMILY failed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_e0487.vcxproj /p:Configuration=Debug /p:Platform=WIN32 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  src.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D EVENT__HAVE_STRUCT_SOCKADDR_STORAGE___SS_FAMILY /D WIN32_LEAN_AND_MEAN /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e0487.dir\Debug\\" /Fd"cmTC_e0487.dir\Debug\vc142.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\src.c"
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\src.c(7,48): error C2039: "__ss_family": 不是 "sockaddr_storage" 的成员 [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_e0487.vcxproj]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\ws2def.h(322): message : 参见“sockaddr_storage”的声明 [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\CMakeFiles\CMakeTmp\cmTC_e0487.vcxproj]
+
+
+Source file was:
+
+#include <winsock2.h>
+#include <ws2tcpip.h>
+
+int main()
+{
+  (void)sizeof(((struct sockaddr_storage *)0)->__ss_family);
+  return 0;
+}
+

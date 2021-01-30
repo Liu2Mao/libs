@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\x64\Release\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\bin\Release\event_core.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\bin\Release\event_extra.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\bin\Release\event_openssl.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\bin\Release\le-proxy.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

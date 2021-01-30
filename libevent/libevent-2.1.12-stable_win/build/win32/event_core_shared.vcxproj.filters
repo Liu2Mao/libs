@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\buffer.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\bufferevent.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\bufferevent_filter.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\bufferevent_pair.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\bufferevent_ratelim.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\bufferevent_sock.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\event.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\evmap.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\evthread.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\evutil.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\evutil_rand.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\evutil_time.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\listener.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\log.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\signal.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\strlcpy.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\evthread_win32.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\buffer_iocp.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\bufferevent_async.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\event_iocp.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\win32select.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Core">
+      <UniqueIdentifier>{9AE026F9-2FFE-385B-AC33-57EFC7D9203A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

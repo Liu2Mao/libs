@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/CMakeLists.txt
+  https-client.c
+  openssl_hostname_validation.c
+  hostcheck.c
+  正在生成代码...
+  https-client.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\bin\Release\https-client.exe

@@ -1,0 +1,18 @@
+﻿  Building Custom Rule C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/CMakeLists.txt
+  bufferevent_openssl.c
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\bufferevent_openssl.c(181,40): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\bufferevent_openssl.c(226,46): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\bufferevent_openssl.c(556,65): warning C4244: “=”: 从“uint64_t”转换到“unsigned long”，可能丢失数据
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\bufferevent_openssl.c(558,59): warning C4244: “=”: 从“uint64_t”转换到“unsigned long”，可能丢失数据
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\bufferevent_openssl.c(564,1): warning C4244: “初始化”: 从“uint64_t”转换到“unsigned long”，可能丢失数据
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\bufferevent_openssl.c(565,1): warning C4244: “初始化”: 从“uint64_t”转换到“unsigned long”，可能丢失数据
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\bufferevent_openssl.c(595,51): warning C4244: “=”: 从“SSIZE_T”转换到“int”，可能丢失数据
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\bufferevent_openssl.c(607,65): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\bufferevent_openssl.c(663,31): warning C4244: “=”: 从“SSIZE_T”转换到“int”，可能丢失数据
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\bufferevent_openssl.c(665,53): warning C4244: “=”: 从“SSIZE_T”转换到“int”，可能丢失数据
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\bufferevent_openssl.c(685,23): warning C4267: “函数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\bufferevent_openssl.c(765,49): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\bufferevent_openssl.c(773,17): warning C4244: “=”: 从“SSIZE_T”转换到“int”，可能丢失数据
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\bufferevent_openssl.c(884,55): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+    正在创建库 C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/lib/Release/event_openssl.lib 和对象 C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/lib/Release/event_openssl.exp
+  event_openssl_shared.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\bin\Release\event_openssl.dll

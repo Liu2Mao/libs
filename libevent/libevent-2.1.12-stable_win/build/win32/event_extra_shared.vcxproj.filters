@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\event_tagging.c">
+      <Filter>Source Extra</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\http.c">
+      <Filter>Source Extra</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\evdns.c">
+      <Filter>Source Extra</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\evrpc.c">
+      <Filter>Source Extra</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Extra">
+      <UniqueIdentifier>{38475E8D-0504-38BB-AB23-9C4443D13FD6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

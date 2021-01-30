@@ -1,0 +1,9 @@
+﻿  Building Custom Rule C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/CMakeLists.txt
+  event_tagging.c
+  http.c
+  evdns.c
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\evdns.c(3884,12): warning C4996: 'GetVersion': 被声明为已否决
+  evrpc.c
+  正在生成代码...
+    正在创建库 C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/lib/Release/event_extra.lib 和对象 C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/lib/Release/event_extra.exp
+  event_extra_shared.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\bin\Release\event_extra.dll

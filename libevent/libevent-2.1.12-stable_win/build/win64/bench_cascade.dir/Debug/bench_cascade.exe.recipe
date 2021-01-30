@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\bin\Debug\event_core.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\bin\Debug\event_extra.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\bin\Debug\bench_cascade.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

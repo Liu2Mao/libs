@@ -1,0 +1,10 @@
+^C:\USERS\LIU2MAO\CAPTURES\LIB\LIBEVENT\LIBEVENT-2.1.12-STABLE_WIN\BUILD\WIN64\CMAKEFILES\9212BD0631E5CCE88AFA8F8E8E5538D9\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Tools\CMake\bin\cmake.exe" -SC:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win -BC:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/libevent.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

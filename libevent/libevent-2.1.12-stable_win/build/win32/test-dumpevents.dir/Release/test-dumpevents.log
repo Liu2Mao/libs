@@ -1,0 +1,3 @@
+﻿  Building Custom Rule C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/CMakeLists.txt
+  test-dumpevents.c
+  test-dumpevents.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\bin\Release\test-dumpevents.exe

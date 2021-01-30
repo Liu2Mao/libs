@@ -1,0 +1,39 @@
+﻿  Building Custom Rule C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/CMakeLists.txt
+  buffer.c
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\buffer.c(3109,15): warning C4244: “函数”: 从“const int64_t”转换到“size_t”，可能丢失数据
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\buffer.c(3120,52): warning C4244: “函数”: 从“int64_t”转换到“unsigned int”，可能丢失数据
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\buffer.c(3238,22): warning C4244: “=”: 从“int64_t”转换到“size_t”，可能丢失数据
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\buffer.c(3239,47): warning C4244: “=”: 从“int64_t”转换到“size_t”，可能丢失数据
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\buffer.c(3257,29): warning C4244: “函数”: 从“uint64_t”转换到“SIZE_T”，可能丢失数据
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\buffer.c(3263,46): warning C4244: “=”: 从“uint64_t”转换到“size_t”，可能丢失数据
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\buffer.c(3265,22): warning C4244: “=”: 从“int64_t”转换到“size_t”，可能丢失数据
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\buffer.c(3273,29): warning C4244: “=”: 从“int64_t”转换到“size_t”，可能丢失数据
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\buffer.c(3274,22): warning C4244: “=”: 从“int64_t”转换到“size_t”，可能丢失数据
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\buffer.c(3281,29): warning C4244: “+=”: 从“int64_t”转换到“size_t”，可能丢失数据
+  bufferevent.c
+  bufferevent_filter.c
+  bufferevent_pair.c
+  bufferevent_ratelim.c
+  bufferevent_sock.c
+  event.c
+  evmap.c
+  evthread.c
+  evutil.c
+  evutil_rand.c
+  evutil_time.c
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\evutil_time.c(582,57): warning C4244: “=”: 从“int64_t”转换到“long”，可能丢失数据
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\evutil_time.c(587,39): warning C4244: “=”: 从“time_t”转换到“long”，可能丢失数据
+  listener.c
+  log.c
+  signal.c
+  strlcpy.c
+  evthread_win32.c
+  buffer_iocp.c
+  bufferevent_async.c
+  event_iocp.c
+  正在生成代码...
+  正在编译...
+  win32select.c
+  正在生成代码...
+    正在创建库 C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/lib/Debug/event_core.lib 和对象 C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/lib/Debug/event_core.exp
+  event_core_shared.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win32\bin\Debug\event_core.dll

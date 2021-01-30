@@ -1,0 +1,10 @@
+^C:\USERS\LIU2MAO\CAPTURES\LIB\LIBEVENT\LIBEVENT-2.1.12-STABLE_WIN\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Tools\CMake\bin\cmake.exe" -SC:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win -BC:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32 --check-stamp-file C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win32/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

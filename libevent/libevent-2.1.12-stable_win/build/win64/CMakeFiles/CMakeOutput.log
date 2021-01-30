@@ -1,0 +1,1461 @@
+The system is: Windows - 10.0.19042 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2021/1/31 0:38:22。
+节点 1 上的项目“C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\3.19.4\CompilerIdC\CompilerIdC.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“Debug\”。
+  正在创建目录“Debug\CompilerIdC.tlog\”。
+InitializeBuildStatus:
+  正在创建“Debug\CompilerIdC.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.28.29333\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.28.29333\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\3.19.4\CompilerIdC\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.28.29333\bin\Hostx64\x64\cl.exe
+FinalizeBuildStatus:
+  正在删除文件“Debug\CompilerIdC.tlog\unsuccessfulbuild”。
+  正在对“Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate”执行 Touch 任务。
+已完成生成项目“C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\3.19.4\CompilerIdC\CompilerIdC.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.99
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/3.19.4/CompilerIdC/CompilerIdC.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_39cb2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CMakeCCompilerABI.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_39cb2.dir\Debug\\" /Fd"cmTC_39cb2.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Program Files\Tools\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c"
+  cmTC_39cb2.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_39cb2.exe
+
+
+
+Determining if files ;fcntl.h exist passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_29b9f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_29b9f.dir\Debug\\" /Fd"cmTC_29b9f.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CheckIncludeFiles\EVENT__HAVE_FCNTL_H.c"
+  EVENT__HAVE_FCNTL_H.c
+  cmTC_29b9f.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_29b9f.exe
+
+
+
+Determining if files fcntl.h;inttypes.h exist passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_ed62d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ed62d.dir\Debug\\" /Fd"cmTC_ed62d.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CheckIncludeFiles\EVENT__HAVE_INTTYPES_H.c"
+  EVENT__HAVE_INTTYPES_H.c
+  cmTC_ed62d.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_ed62d.exe
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h exist passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_f8ec6.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f8ec6.dir\Debug\\" /Fd"cmTC_f8ec6.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CheckIncludeFiles\EVENT__HAVE_MEMORY_H.c"
+  EVENT__HAVE_MEMORY_H.c
+  cmTC_f8ec6.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_f8ec6.exe
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h exist passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_50c1e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  EVENT__HAVE_SIGNAL_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_50c1e.dir\Debug\\" /Fd"cmTC_50c1e.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CheckIncludeFiles\EVENT__HAVE_SIGNAL_H.c"
+  cmTC_50c1e.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_50c1e.exe
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h exist passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_e92a9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e92a9.dir\Debug\\" /Fd"cmTC_e92a9.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CheckIncludeFiles\EVENT__HAVE_STDARG_H.c"
+  EVENT__HAVE_STDARG_H.c
+  cmTC_e92a9.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_e92a9.exe
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h exist passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_9c42b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9c42b.dir\Debug\\" /Fd"cmTC_9c42b.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CheckIncludeFiles\EVENT__HAVE_STDDEF_H.c"
+  EVENT__HAVE_STDDEF_H.c
+  cmTC_9c42b.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_9c42b.exe
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h exist passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_47606.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_47606.dir\Debug\\" /Fd"cmTC_47606.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CheckIncludeFiles\EVENT__HAVE_STDINT_H.c"
+  EVENT__HAVE_STDINT_H.c
+  cmTC_47606.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_47606.exe
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h;stdlib.h exist passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_62688.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  EVENT__HAVE_STDLIB_H.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_62688.dir\Debug\\" /Fd"cmTC_62688.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CheckIncludeFiles\EVENT__HAVE_STDLIB_H.c"
+  cmTC_62688.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_62688.exe
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h;stdlib.h;string.h exist passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_5d945.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  EVENT__HAVE_STRING_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5d945.dir\Debug\\" /Fd"cmTC_5d945.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CheckIncludeFiles\EVENT__HAVE_STRING_H.c"
+  cmTC_5d945.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_5d945.exe
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h;stdlib.h;string.h;errno.h exist passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_d0198.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  EVENT__HAVE_ERRNO_H.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d0198.dir\Debug\\" /Fd"cmTC_d0198.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CheckIncludeFiles\EVENT__HAVE_ERRNO_H.c"
+  cmTC_d0198.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_d0198.exe
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h;stdlib.h;string.h;errno.h;time.h exist passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_17ab7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  EVENT__HAVE_TIME_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_17ab7.dir\Debug\\" /Fd"cmTC_17ab7.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CheckIncludeFiles\EVENT__HAVE_TIME_H.c"
+  cmTC_17ab7.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_17ab7.exe
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h;stdlib.h;string.h;errno.h;time.h;sys/types.h exist passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_7e1e2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7e1e2.dir\Debug\\" /Fd"cmTC_7e1e2.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CheckIncludeFiles\EVENT__HAVE_SYS_TYPES_H.c"
+  EVENT__HAVE_SYS_TYPES_H.c
+  cmTC_7e1e2.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_7e1e2.exe
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h;stdlib.h;string.h;errno.h;time.h;sys/types.h;sys/stat.h exist passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_654d2.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_654d2.dir\Debug\\" /Fd"cmTC_654d2.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CheckIncludeFiles\EVENT__HAVE_SYS_STAT_H.c"
+  EVENT__HAVE_SYS_STAT_H.c
+  cmTC_654d2.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_654d2.exe
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h;stdlib.h;string.h;errno.h;time.h;sys/types.h;sys/stat.h;io.h exist passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_69286.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  EVENT__HAVE_IO_H.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_69286.dir\Debug\\" /Fd"cmTC_69286.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CheckIncludeFiles\EVENT__HAVE_IO_H.c"
+  cmTC_69286.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_69286.exe
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h;stdlib.h;string.h;errno.h;time.h;sys/types.h;sys/stat.h;io.h;winsock2.h exist passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_b3b86.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b3b86.dir\Debug\\" /Fd"cmTC_b3b86.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CheckIncludeFiles\EVENT__HAVE_WINSOCK2_H.c"
+  EVENT__HAVE_WINSOCK2_H.c
+  cmTC_b3b86.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_b3b86.exe
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h;stdlib.h;string.h;errno.h;time.h;sys/types.h;sys/stat.h;io.h;winsock2.h;ws2tcpip.h exist passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_ad97c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  EVENT__HAVE_WS2TCPIP_H.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ad97c.dir\Debug\\" /Fd"cmTC_ad97c.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CheckIncludeFiles\EVENT__HAVE_WS2TCPIP_H.c"
+  cmTC_ad97c.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_ad97c.exe
+
+
+
+Determining if files fcntl.h;inttypes.h;memory.h;signal.h;stdarg.h;stddef.h;stdint.h;stdlib.h;string.h;errno.h;time.h;sys/types.h;sys/stat.h;io.h;winsock2.h;ws2tcpip.h;afunix.h exist passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_04a83.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_04a83.dir\Debug\\" /Fd"cmTC_04a83.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CheckIncludeFiles\EVENT__HAVE_AFUNIX_H.c"
+  EVENT__HAVE_AFUNIX_H.c
+  cmTC_04a83.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_04a83.exe
+
+
+
+Determining if the getaddrinfo exist passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_a53a7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a53a7.dir\Debug\\" /Fd"cmTC_a53a7.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  cmTC_a53a7.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_a53a7.exe
+
+
+File C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <io.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <afunix.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getaddrinfo
+  return ((int*)(&getaddrinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getnameinfo exist passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_dc7cd.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_dc7cd.dir\Debug\\" /Fd"cmTC_dc7cd.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  cmTC_dc7cd.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_dc7cd.exe
+
+
+File C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <io.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <afunix.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getnameinfo
+  return ((int*)(&getnameinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getprotobynumber exist passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_fd3b9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  CheckSymbolExists.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fd3b9.dir\Debug\\" /Fd"cmTC_fd3b9.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  cmTC_fd3b9.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_fd3b9.exe
+
+
+File C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <io.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <afunix.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getprotobynumber
+  return ((int*)(&getprotobynumber))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getservbyname exist passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_fa6de.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  CheckSymbolExists.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fa6de.dir\Debug\\" /Fd"cmTC_fa6de.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  cmTC_fa6de.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_fa6de.exe
+
+
+File C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <io.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <afunix.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getservbyname
+  return ((int*)(&getservbyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the gethostbyname exist passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_aea5d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_aea5d.dir\Debug\\" /Fd"cmTC_aea5d.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\CheckSymbolExists.c(25,19): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\cmTC_aea5d.vcxproj]
+  cmTC_aea5d.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_aea5d.exe
+
+
+File C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <io.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <afunix.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gethostbyname
+  return ((int*)(&gethostbyname))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the inet_ntop exist passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_7fa6f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7fa6f.dir\Debug\\" /Fd"cmTC_7fa6f.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+  cmTC_7fa6f.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_7fa6f.exe
+
+
+File C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <io.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <afunix.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inet_ntop
+  return ((int*)(&inet_ntop))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the inet_pton exist passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_6df31.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6df31.dir\Debug\\" /Fd"cmTC_6df31.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+  cmTC_6df31.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_6df31.exe
+
+
+File C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <io.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <afunix.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef inet_pton
+  return ((int*)(&inet_pton))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the signal exist passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_f2141.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f2141.dir\Debug\\" /Fd"cmTC_f2141.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+  cmTC_f2141.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_f2141.exe
+
+
+File C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <io.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <afunix.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef signal
+  return ((int*)(&signal))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtoll exist passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_b9fdb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b9fdb.dir\Debug\\" /Fd"cmTC_b9fdb.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  cmTC_b9fdb.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_b9fdb.exe
+
+
+File C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <io.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <afunix.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoll
+  return ((int*)(&strtoll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the timerclear exist passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_df076.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_df076.dir\Debug\\" /Fd"cmTC_df076.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+  cmTC_df076.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_df076.exe
+
+
+File C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <io.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <afunix.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef timerclear
+  return ((int*)(&timerclear))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the timercmp exist passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_6ef40.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6ef40.dir\Debug\\" /Fd"cmTC_6ef40.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  cmTC_6ef40.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_6ef40.exe
+
+
+File C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <io.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <afunix.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef timercmp
+  return ((int*)(&timercmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the timerisset exist passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_9e1bf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9e1bf.dir\Debug\\" /Fd"cmTC_9e1bf.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+  cmTC_9e1bf.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_9e1bf.exe
+
+
+File C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <io.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <afunix.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef timerisset
+  return ((int*)(&timerisset))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the putenv exist passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_37f84.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_37f84.dir\Debug\\" /Fd"cmTC_37f84.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\CheckSymbolExists.c(25,19): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details. [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\cmTC_37f84.vcxproj]
+  cmTC_37f84.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_37f84.exe
+
+
+File C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <io.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <afunix.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef putenv
+  return ((int*)(&putenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the umask exist passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_b1060.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b1060.dir\Debug\\" /Fd"cmTC_b1060.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\CheckSymbolExists.c(25,19): warning C4996: 'umask': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _umask. See online help for details. [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\cmTC_b1060.vcxproj]
+  cmTC_b1060.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_b1060.exe
+
+
+File C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <io.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <afunix.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef umask
+  return ((int*)(&umask))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _gmtime64_s exist passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_c060b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c060b.dir\Debug\\" /Fd"cmTC_c060b.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+  cmTC_c060b.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_c060b.exe
+
+
+File C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <io.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <afunix.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _gmtime64_s
+  return ((int*)(&_gmtime64_s))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _gmtime64 exist passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_faf35.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_faf35.dir\Debug\\" /Fd"cmTC_faf35.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  CheckSymbolExists.c
+C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\CheckSymbolExists.c(25,19): warning C4996: '_gmtime64': This function or variable may be unsafe. Consider using _gmtime64_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. [C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\cmTC_faf35.vcxproj]
+  cmTC_faf35.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_faf35.exe
+
+
+File C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+#include <inttypes.h>
+#include <memory.h>
+#include <signal.h>
+#include <stdarg.h>
+#include <stddef.h>
+#include <stdint.h>
+#include <stdlib.h>
+#include <string.h>
+#include <errno.h>
+#include <time.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <io.h>
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#include <afunix.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _gmtime64
+  return ((int*)(&_gmtime64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_cb699.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  CheckIncludeFile.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cb699.dir\Debug\\" /Fd"cmTC_cb699.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_cb699.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_cb699.exe
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_83d99.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_83d99.dir\Debug\\" /Fd"cmTC_83d99.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_83d99.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_83d99.exe
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_f0c9d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f0c9d.dir\Debug\\" /Fd"cmTC_f0c9d.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_f0c9d.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_f0c9d.exe
+
+
+
+Determining size of struct sockaddr_un passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_785eb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  EVENT__HAVE_STRUCT_SOCKADDR_UN.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_785eb.dir\Debug\\" /Fd"cmTC_785eb.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CheckTypeSize\EVENT__HAVE_STRUCT_SOCKADDR_UN.c"
+  cmTC_785eb.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_785eb.exe
+
+
+
+Determining size of uint8_t passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_f3257.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  EVENT__HAVE_UINT8_T.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f3257.dir\Debug\\" /Fd"cmTC_f3257.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CheckTypeSize\EVENT__HAVE_UINT8_T.c"
+  cmTC_f3257.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_f3257.exe
+
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_1e7f0.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  EVENT__HAVE_UINT16_T.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_1e7f0.dir\Debug\\" /Fd"cmTC_1e7f0.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CheckTypeSize\EVENT__HAVE_UINT16_T.c"
+  cmTC_1e7f0.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_1e7f0.exe
+
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_16a6d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  EVENT__HAVE_UINT32_T.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_16a6d.dir\Debug\\" /Fd"cmTC_16a6d.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CheckTypeSize\EVENT__HAVE_UINT32_T.c"
+  cmTC_16a6d.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_16a6d.exe
+
+
+
+Determining size of uint64_t passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_476ad.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  EVENT__HAVE_UINT64_T.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_476ad.dir\Debug\\" /Fd"cmTC_476ad.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CheckTypeSize\EVENT__HAVE_UINT64_T.c"
+  cmTC_476ad.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_476ad.exe
+
+
+
+Determining size of short passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_89b2c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  EVENT__SIZEOF_SHORT.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_89b2c.dir\Debug\\" /Fd"cmTC_89b2c.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_SHORT.c"
+  cmTC_89b2c.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_89b2c.exe
+
+
+
+Determining size of int passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_47cde.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  EVENT__SIZEOF_INT.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_47cde.dir\Debug\\" /Fd"cmTC_47cde.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_INT.c"
+  cmTC_47cde.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_47cde.exe
+
+
+
+Determining size of unsigned passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_a155f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  EVENT__SIZEOF_UNSIGNED.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a155f.dir\Debug\\" /Fd"cmTC_a155f.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_UNSIGNED.c"
+  cmTC_a155f.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_a155f.exe
+
+
+
+Determining size of unsigned int passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_75949.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  EVENT__SIZEOF_UNSIGNED_INT.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_75949.dir\Debug\\" /Fd"cmTC_75949.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_UNSIGNED_INT.c"
+  cmTC_75949.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_75949.exe
+
+
+
+Determining size of long passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_77289.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  EVENT__SIZEOF_LONG.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_77289.dir\Debug\\" /Fd"cmTC_77289.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_LONG.c"
+  cmTC_77289.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_77289.exe
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_3413b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  EVENT__SIZEOF_LONG_LONG.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3413b.dir\Debug\\" /Fd"cmTC_3413b.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_LONG_LONG.c"
+  cmTC_3413b.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_3413b.exe
+
+
+
+Performing C SOURCE FILE Test HAVE_INLINE succeeded with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_29e73.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  src.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D HAVE_INLINE /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_29e73.dir\Debug\\" /Fd"cmTC_29e73.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\src.c"
+  cmTC_29e73.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_29e73.exe
+
+
+Source file was:
+inline void func(); void func() { } int main() { func(); return 0; }
+Determining if the __func__ exist passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_6dd8a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6dd8a.dir\Debug\\" /Fd"cmTC_6dd8a.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  cmTC_6dd8a.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_6dd8a.exe
+
+
+File C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __func__
+  return ((int*)(&__func__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the __FUNCTION__ exist passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_3450f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  CheckSymbolExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3450f.dir\Debug\\" /Fd"cmTC_3450f.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  cmTC_3450f.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_3450f.exe
+
+
+File C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __FUNCTION__
+  return ((int*)(&__FUNCTION__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining size of size_t passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_60fab.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  EVENT__SIZEOF_SIZE_T.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_60fab.dir\Debug\\" /Fd"cmTC_60fab.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_SIZE_T.c"
+  cmTC_60fab.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_60fab.exe
+
+
+
+Determining size of off_t passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_f63c4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  EVENT__SIZEOF_OFF_T.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f63c4.dir\Debug\\" /Fd"cmTC_f63c4.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_OFF_T.c"
+  cmTC_f63c4.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_f63c4.exe
+
+
+
+Determining size of SSIZE_T passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_e7c34.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  EVENT__SIZEOF_SSIZE_T_UPPER.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e7c34.dir\Debug\\" /Fd"cmTC_e7c34.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_SSIZE_T_UPPER.c"
+  cmTC_e7c34.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_e7c34.exe
+
+
+
+Determining size of socklen_t passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_a0434.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  EVENT__SIZEOF_SOCKLEN_T.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a0434.dir\Debug\\" /Fd"cmTC_a0434.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_SOCKLEN_T.c"
+  cmTC_a0434.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_a0434.exe
+
+
+
+Determining size of uintptr_t passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_fa336.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  EVENT__HAVE_UINTPTR_T.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fa336.dir\Debug\\" /Fd"cmTC_fa336.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CheckTypeSize\EVENT__HAVE_UINTPTR_T.c"
+  cmTC_fa336.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_fa336.exe
+
+
+
+Determining size of void * passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_20280.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  EVENT__SIZEOF_VOID_P.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_20280.dir\Debug\\" /Fd"cmTC_20280.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_VOID_P.c"
+  cmTC_20280.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_20280.exe
+
+
+
+Determining size of time_t passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_228d3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  EVENT__SIZEOF_TIME_T.c
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_228d3.dir\Debug\\" /Fd"cmTC_228d3.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_TIME_T.c"
+  cmTC_228d3.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_228d3.exe
+
+
+
+Determining size of struct addrinfo passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_fe6c1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  EVENT__HAVE_STRUCT_ADDRINFO.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0600 /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fe6c1.dir\Debug\\" /Fd"cmTC_fe6c1.dir\Debug\vc142.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CheckTypeSize\EVENT__HAVE_STRUCT_ADDRINFO.c"
+  cmTC_fe6c1.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_fe6c1.exe
+
+
+
+Determining size of struct in6_addr passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_16368.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  EVENT__HAVE_STRUCT_IN6_ADDR.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_16368.dir\Debug\\" /Fd"cmTC_16368.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CheckTypeSize\EVENT__HAVE_STRUCT_IN6_ADDR.c"
+  cmTC_16368.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_16368.exe
+
+
+
+Determining size of struct sockaddr_in6 passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_41946.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  EVENT__HAVE_STRUCT_SOCKADDR_IN6.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_41946.dir\Debug\\" /Fd"cmTC_41946.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CheckTypeSize\EVENT__HAVE_STRUCT_SOCKADDR_IN6.c"
+  cmTC_41946.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_41946.exe
+
+
+
+Determining size of struct sockaddr_storage passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_28660.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  EVENT__HAVE_STRUCT_SOCKADDR_STORAGE.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_28660.dir\Debug\\" /Fd"cmTC_28660.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CheckTypeSize\EVENT__HAVE_STRUCT_SOCKADDR_STORAGE.c"
+  cmTC_28660.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_28660.exe
+
+
+
+Performing C SOURCE FILE Test EVENT__HAVE_STRUCT_SOCKADDR_STORAGE_SS_FAMILY succeeded with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_87e0f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  src.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D EVENT__HAVE_STRUCT_SOCKADDR_STORAGE_SS_FAMILY /D WIN32_LEAN_AND_MEAN /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_87e0f.dir\Debug\\" /Fd"cmTC_87e0f.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\src.c"
+  cmTC_87e0f.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_87e0f.exe
+
+
+Source file was:
+
+#include <winsock2.h>
+#include <ws2tcpip.h>
+
+int main()
+{
+  (void)sizeof(((struct sockaddr_storage *)0)->ss_family);
+  return 0;
+}
+
+Determining size of struct linger passed with the following output:
+Change Dir: C:/Users/liu2mao/Captures/lib/libevent/libevent-2.1.12-stable_win/build/win64/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Professional/MSBuild/Current/Bin/MSBuild.exe cmTC_591f3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && 用于 .NET Framework 的 Microsoft (R) 生成引擎版本 16.8.3+39993bd9d
+版权所有(C) Microsoft Corporation。保留所有权利。
+
+  用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.28.29336 版
+  版权所有(C) Microsoft Corporation。保留所有权利。
+  EVENT__HAVE_STRUCT_LINGER.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_591f3.dir\Debug\\" /Fd"cmTC_591f3.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CheckTypeSize\EVENT__HAVE_STRUCT_LINGER.c"
+  cmTC_591f3.vcxproj -> C:\Users\liu2mao\Captures\lib\libevent\libevent-2.1.12-stable_win\build\win64\CMakeFiles\CMakeTmp\Debug\cmTC_591f3.exe
+
+
+
